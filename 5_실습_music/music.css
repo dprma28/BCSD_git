@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+    width: 900px;
+}
+
+.music{
+    width: 110px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+    padding: 10px;
+    margin: 20px;
+
+    border-radius: 10px;
+    box-shadow:.8rem .5rem 1.4rem  #BEC5D0, -.3rem -.4rem .8rem #FBFBFB;
+    transition-duration: 0.5s;
+}
+
+.music:active {
+    box-shadow: none;
+}
+
+#basket {
+    position: absolute;
+    top: 70px;
+    right: 90px; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 200px;
+    height: auto;
+    background-color: whitesmoke;
+}
